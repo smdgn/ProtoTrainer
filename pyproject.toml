@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ProtoTrainer"
-version = "0.0.1"
+version = "0.0.1a"
 authors = [
   { name="Samed Dogan", email="samed.dogan@hm.edu"},
 ]
@@ -17,7 +17,6 @@ dependencies = [
     "datasets",
     "pytorch",
     "rich",
-    "json",
     "tqdm"
 ]
 classifiers = [

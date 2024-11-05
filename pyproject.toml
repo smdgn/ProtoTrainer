@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ProtoTrainer"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Samed Dogan", email="samed.dogan@hm.edu"},
 ]
@@ -15,7 +15,7 @@ requires-python = ">=3.8"
 dependencies = [
     "accelerate",
     "datasets",
-    "pytorch",
+    "torch==2.1.0",
     "rich",
     "tqdm"
 ]

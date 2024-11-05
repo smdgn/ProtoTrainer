@@ -1,5 +1,4 @@
 from enum import Enum, EnumMeta
-from torch.optim import Adam
 
 # TODO: linter complains
 

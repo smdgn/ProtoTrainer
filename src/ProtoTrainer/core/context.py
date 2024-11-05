@@ -4,7 +4,7 @@ from enum import IntEnum
 from typing import Callable
 from functools import wraps
 
-from ProtoTrainer.core.generic.base_context import ContextObject, FunctionObjectFactory, SortedList, BaseContext
+from src.ProtoTrainer.core.generic.base_context import ContextObject, FunctionObjectFactory, SortedList, BaseContext
 
 
 class Priority(IntEnum):

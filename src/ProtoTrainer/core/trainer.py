@@ -1,4 +1,3 @@
-import operator
 import os
 import datetime
 import json
@@ -7,15 +6,15 @@ import torch
 from accelerate import Accelerator
 from accelerate.tracking import TensorBoardTracker
 from torch.utils.data import DataLoader
-from functools import wraps, partial
 from rich import print
 from tqdm.auto import tqdm
 from pathlib import Path
 from typing import Protocol, Callable, final
 from abc import abstractmethod, ABC, ABCMeta
 from datasets import Dataset
-from ProtoTrainer.core.generic.interface import TrainerInterface
-from ProtoTrainer.core.context import Context, execute_for_step
+
+from src.ProtoTrainer.core.generic.interface import TrainerInterface
+from src.ProtoTrainer.core.context import Context, execute_for_step
 
 from accelerate.utils.dataclasses import (
     PrecisionType,

@@ -3,8 +3,8 @@ import json
 
 from os import PathLike
 
-from ProtoTrainer.core.generic.base_mixin import BaseMixin
-from ProtoTrainer.core.context import Context, Priority
+from src.ProtoTrainer.core.generic.base_mixin import BaseMixin
+from src.ProtoTrainer.core.context import Context, Priority
 from pathlib import Path
 from rich import print
 

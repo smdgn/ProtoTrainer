@@ -1,4 +1,4 @@
-from ProtoTrainer.utils.dispatcher import enumdispatchmethod
+from src.ProtoTrainer.utils.dispatcher import enumdispatchmethod
 from enum import Enum
 import pytest
 

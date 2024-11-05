@@ -3,7 +3,7 @@ import json
 
 from typing import BinaryIO, TextIO
 
-from ProtoTrainer.core.generic.base_logger import Serializer, BaseLogger, create_logger
+from src.ProtoTrainer.core.generic.base_logger import Serializer, BaseLogger, create_logger
 
 
 class _JsonSerializer(Serializer):

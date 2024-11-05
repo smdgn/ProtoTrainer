@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 from os import PathLike
-from typing import Sequence, BinaryIO, TextIO, TypeVar, get_type_hints, Type, ClassVar
+from typing import Sequence, BinaryIO, TextIO, TypeVar, get_type_hints, Type
 
 IO_ = TypeVar('IO_', TextIO, BinaryIO)
 

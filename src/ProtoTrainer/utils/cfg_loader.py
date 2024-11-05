@@ -1,8 +1,10 @@
 import yaml
+import argparse
+
 from collections import abc
 from pathlib import Path
-import argparse
-from ProtoTrainer.core.generic.base_enum import BaseEnum
+
+from src.ProtoTrainer.core.generic.base_enum import BaseEnum
 
 
 def parse_yaml_to_config(yaml_file: Path | list[Path],

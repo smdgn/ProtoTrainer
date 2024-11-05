@@ -1,6 +1,6 @@
 import sys
 
-from ProtoTrainer.utils.cfg_loader import ConfigParser
+from src.ProtoTrainer.utils.cfg_loader import ConfigParser
 
 # import pytest
 

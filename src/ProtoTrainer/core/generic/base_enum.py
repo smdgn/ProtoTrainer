@@ -33,34 +33,3 @@ class CallableEnum(Enum, metaclass=BaseEnumMeta):
             return self.__class__["_" + self.name].value
         except KeyError:
             raise NotImplementedError("No callable defined for this enum member")
-
-
-class AverageModelType(BaseEnum):
-    """
-    Supported model averaging types
-    Attributes:
-        SWE: Stochastic Weight Averaging
-        EMA: Exponential Moving Average
-
-    """
-    SWA = "swa"
-    EMA = "ema"
-
-from typing import Callable
-class OptimizerType(CallableEnum):
-    """
-    Supported optimizer types
-    Attributes:
-        ADAM: Adam Optimizer
-        ADAMW: Adaptive Moving Average Weighting Optimizer
-        RMSPROP: RMSprop Optimizer
-        SGD: SGD Optimizer
-    """
-    ADAM= "adam"
-    ADAMW = "adamw"
-    RMSPROP = "rmsprop"
-    SGD = "sgd"
-
-    _ADAM = Adam
-
-
